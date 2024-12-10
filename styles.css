@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa !important;
 }
 
 .navbar {
@@ -10,6 +10,10 @@ body {
     border: none;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0,0,0,.1);
+}
+
+ul li{
+    list-style: none;
 }
 
 .card-body {
@@ -25,8 +29,8 @@ body {
     padding: .5rem 1.5rem;
 }
 
-.results {
-    background-color: #e9ecef;
+.results  {
+    background-color: #dadcde;
     border-radius: 8px;
     padding: 1rem;
     margin-top: 1rem;
@@ -55,8 +59,23 @@ h2 {
     display: block;
 }
 
+
+.card-body ul  {
+    background-color: #dadcde !important;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .card-body {
         padding: 1rem;
     }
 }
+
